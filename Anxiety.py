@@ -137,8 +137,3 @@ df_group = df2[df2.Group == group]
 st.write("## Rate of Anxiety and Depressive Disorder by ", group)
 fig3 = px.line(df_group, x='IntervalRange', y='Rate', color='Subgroup')
 st.plotly_chart(fig3)
-fig = px.choropleth(df, locations="State",
-                    color="Rate", # lifeExp is a column of gapminder
-                    hover_name="Rate", # column to add to hover information
-                    color_continuous_scale=px.colors.sequential.Plasma)
-st.plotly_chart(fig)
