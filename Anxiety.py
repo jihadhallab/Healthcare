@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 st.image('Depression.jpg')
 st.write("""
 # The Effect of COVID-19 on Anxiety & Depression in the USA
-## Intro
+## Introduction
 
 Rates of anxiety and depression among adults were increasing before the outbreak of COVID. Causes of depression are often listed as some combination of family history, early childhood trauma, medical conditions, isolation, poor habits, substance dependency, financial worry, and/or stress. Therefore, Covid-19 has unfortunately accelerated the rates of anxiety and depression on a national front.
 The motivation behind creating this tool is to be able to identify across the US the people that need this the most by assessing the rates nationwide.
-By using CDC’s data from April 23- December 21, 2020 we are going to explore the impact of Covid-19 on mental well being at a state, regional & demographic level.).
+By using CDC’s data from April 23- December 21, 2020 we are going to explore the impact of Covid-19 on mental well being at a state, regional & demographic level.
 
 """)
 
