@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px 
-import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 #Introduction (main section)
 st.image('Depression.jpg')
